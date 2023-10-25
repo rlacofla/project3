@@ -1,0 +1,215 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;    
+}
+
+body{
+    width: 1903px;
+}
+ul, li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color: black;
+    display: block;
+}
+header{
+    width: 1903px;
+    height: 141px;
+    position: relative;
+}
+.nav{
+    background: #eee;
+    width: 1903px;
+    height: 40px;
+}
+.nav ul{
+    width: 494.531px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 280px;
+}
+.nav ul li{
+    float: left;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.menu{
+    width: 1200px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.logo{
+    width: 93px;
+    height: 100px;
+    text-indent: -9999px;
+    background: url(../images/logo.png) no-repeat center center;
+}
+.logo>a{
+    height: 100px;
+}
+.menu>ul{
+    width: 815.438px;
+    height: 100px;
+    margin-left:192px ;
+    border: 1px solid blue;
+    position: absolute;
+    top: 40px;
+}
+.menu>ul>.menu_1{
+    line-height: 100px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #2f1c11;
+    padding: 0 31px 0 32px;
+    font-family: "Arial","NanumBarunGothic";
+    font-weight: 700;
+}
+.menu_1>a:hover{
+    color: rgb(207,102,26);
+}
+.search{
+    position: absolute;
+    top: 80px;
+    right: 355px;
+}
+.sub_1,.sub_2{
+    display: none;
+}
+.sub_1{
+    font-size: 13px;
+}
+.sub_2{
+    font-size: 11px;
+    color: darkgray;
+}
+.sub_3{
+    font-size: 11px;
+    color: rgb(207,102,26);
+}
+.main_2{
+    width: 1200px;
+    height: 455px;
+    margin:55px auto 0;
+}
+.main_2>h2{
+    color: rgb(207,102,26);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom:35px;
+}
+.md{
+    float: left;
+}
+
+.md:nth-child(1):hover::after{
+    content: "QUICKVIEW";
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: rgb(255, 129, 39);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 21%;
+    top: 1180px;
+    opacity: 1;
+}
+.md:nth-child(2):hover::after{
+    content: "QUICKVIEW";
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: rgb(255, 129, 39);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 37%;
+    top: 1180px;
+    opacity: 1;
+}
+.md:nth-child(3):hover::after{
+    content: "QUICKVIEW";
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: rgb(255, 129, 39);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 53%;
+    top: 1180px;
+    opacity: 1;
+}
+.md:nth-child(4):hover::after{
+    content: "QUICKVIEW";
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: rgb(255, 129, 39);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 69%;
+    top: 1180px;
+    opacity: 1;
+}
+.md span{
+    text-align: center;
+    display: block;
+}
+.mdwrap .photo{
+    width: 300px;
+    height: 300px;
+    
+    margin-bottom: 25px;
+}
+.md .txt{
+    width: 280px;
+    height: 130px;
+    padding: 0px 10px 0px 10px;
+}
+.md .txt .name{
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    height: 44px;
+    margin-bottom: 15px;
+    
+}
+.md .txt .date{
+    width: 280px;
+    height: 17px;
+    font-size: 14px;
+    color: rgb(51,51,51);
+    margin-bottom: 15px;
+    font-family:"Arial","NanumBarunGothic";
+}
+.md .txt .sale{
+    width: 280px;
+    height: 15px;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+    font-family: "Arial","NanumBarunGothic";
+    color: rgb(51,51,51);
+}
+.md .txt .price{
+    width: 280px;
+    height: 13px;
+    font-family: "Arial","NanumBarunGothic";
+    font-size: 14px;
+    color: rgb(207,102,26);
+}
